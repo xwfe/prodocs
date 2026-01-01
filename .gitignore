@@ -82,6 +82,9 @@ out
 .nuxt
 dist
 
+# 爬虫输出数据（Milestone 1）
+data/
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
