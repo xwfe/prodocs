@@ -3,6 +3,8 @@ import 'dotenv/config';
 import { runSource } from '../crawler/runSource.js';
 import { getSourceById, listSources } from '../sources/index.js';
 
+// 该文件只负责：解析 CLI 参数 -> 选择 DocSource -> 调用 runSource 执行抓取。
+
 function 读取参数(name: string): string | null {
   const prefix = `--${name}=`;
   for (const arg of process.argv.slice(2)) {

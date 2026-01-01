@@ -1,3 +1,4 @@
+// 命令行入口：通过 tsx 直接运行 TypeScript CLI（避免引入额外的构建步骤）。
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
